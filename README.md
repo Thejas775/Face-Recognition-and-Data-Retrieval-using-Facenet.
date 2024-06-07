@@ -1,0 +1,1 @@
+This is a face recognition project made in Kotlin for Android. The facenet.tflite is used to generate the embeddings. If a person is unknown a textbox will appear to save the person's name. It is stored in json file and then if the face is matched it is then checked using L2Norm similarity for face recognition. It uses ML kit face detector to crop the faces out of images.
